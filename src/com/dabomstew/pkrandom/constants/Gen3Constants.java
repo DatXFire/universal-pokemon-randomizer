@@ -138,11 +138,11 @@ public class Gen3Constants {
     public static final int evolutionMethodCount = 15;
 
     public static final int evolutionEntrySize = 8;
-    public static final int gen3EvolutionsPerPokemon = 5, gaiaEvolutionsPerPokemon = 16;
+    public static final int gen3EvolutionsPerPokemon = 16, gaiaEvolutionsPerPokemon = 16;
 
     public static final int sunStoneIndex = 93, moonStoneIndex = 94, waterStoneIndex = 97;
 
-    public static final int gen3HighestAbilityIndex = 77, gaiaHighestAbilityIndex = 135;
+    public static final int gen3HighestAbilityIndex = 150, gaiaHighestAbilityIndex = 150;
 
     public static final int frlgMapLabelsStart = 0x58;
 
