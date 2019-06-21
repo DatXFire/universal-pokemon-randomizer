@@ -2549,7 +2549,7 @@ public class Gen3RomHandler extends AbstractGBRomHandler {
     @Override
     public List<Integer> getExcludedAbilities() {
         int[] ExcludedAbilities = romEntry.arrayEntries.get("ExcludedAbilities");
-        List<Integer> excludedAbilitiesList = new ArrayList<>();
+        List<Integer> excludedAbilitiesList = new ArrayList<Integer>();
 
         for (int i = 0; i < ExcludedAbilities.length; i++) {
             excludedAbilitiesList.add(ExcludedAbilities[i]);
