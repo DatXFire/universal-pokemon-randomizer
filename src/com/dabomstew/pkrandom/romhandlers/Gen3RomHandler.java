@@ -683,9 +683,7 @@ public class Gen3RomHandler extends AbstractGBRomHandler {
             }
             romEntry.entries.put("TrainerCount", trainerCount);
 
-            // disable static pokemon & move tutor/tm text
-            romEntry.entries.put("StaticPokemonSupport", 0);
-            romEntry.staticPokemon.clear();
+            // disables move tutor/tm text
             romEntry.tmmtTexts.clear();
 
         }
